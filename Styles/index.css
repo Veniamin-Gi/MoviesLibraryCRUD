@@ -1,0 +1,60 @@
+header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .film {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .film h3 {
+    margin-top: 0;
+  }
+  
+  .film p {
+    margin: 5px 0;
+  }
+  
+  .film ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .editButton,
+  .deleteButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .editButton:hover,
+  .deleteButton:hover {
+    background-color: #555;
+  }
+  
